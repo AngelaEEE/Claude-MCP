@@ -1,10 +1,11 @@
 {
   "mcpServers": {
-    "remoto": {
+    "plane-cca": {
       "type": "http",
-      "url": "${MCP_SERVER_URL}",
+      "url": "https://mcp-plane.ideum.co/http/api-key/mcp",
       "headers": {
-        "Authorization": "Bearer ${MCP_SERVER_TOKEN:-}"
+        "Authorization": "Bearer ${PLANE_API_KEY}",
+        "X-Workspace-slug": "colombian-coffees"
       }
     }
   }
