@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "remoto": {
+      "type": "http",
+      "url": "${MCP_SERVER_URL}",
+      "headers": {
+        "Authorization": "Bearer ${MCP_SERVER_TOKEN:-}"
+      }
+    }
+  }
+}
